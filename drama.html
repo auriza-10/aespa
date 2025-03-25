@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Girls</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Yatra+One&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000; 
+            color: white;
+            font-family: 'Yatra One', sans-serif;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #a30000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+            box-shadow: 0 4px 8px #ac0404;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: "Archivo Black", sans-serif;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: rgb(134, 4, 4);
+        }
+
+        .navbar img {
+            height: 80px;
+            margin-right: 60px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+            padding-top: 60px;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            width: 300px;
+            border-radius: 8px;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .video {
+            margin-top: 20px;
+        }
+
+        .video-thumbnail {
+            width: 400px;
+            height: auto;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .video-thumbnail:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="intro.html">INTRO</a>
+        <img src="img/dramalogo.png" alt="Savage logo">
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <img src="img/drama.jpg" alt="Drama" class="image">
+            <div class="text">
+                <p><b>"Drama" 4th Mini Album</b></p>
+                <p>10 de noviembre del 2023</p>
+                <p><b>AESPA</b></p>
+                <p> Drama, Trick or Trick, Don't Blink, Hot Air Balloon, YOLO, You, Better Things </p>
+                <p> Giselle, Karina, Winter, Ningning </p>
+                <p>SM Entertainment</p>
+            </div>
+        </div>
+
+        <div class="video">
+            <a href="https://youtu.be/D8VEhcPeSlc?si=jQ9vTrt_2JCU4HWC" target="_blank">
+                <img src="https://img.youtube.com/vi/D8VEhcPeSlc/hqdefault.jpg" alt="Drama" class="video-thumbnail">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
