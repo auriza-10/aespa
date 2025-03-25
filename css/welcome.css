@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    color: white; 
+    font-family: "Lexend Giga", sans-serif;
+    height: 100vh; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: relative;
+}
+
+video {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative; 
+    z-index: 1; 
+    color: white;
+}
+
+.intro-text {
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.intro-text:hover {
+    color: rebeccapurple; 
+}
