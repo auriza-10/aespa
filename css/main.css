@@ -132,7 +132,7 @@ body {
         align-items: flex-start;
     }
     .navbar a {
-        font-size: 18px;
+        font-size: 20px;
     }
     .navbar img {
         height: 40px;
@@ -152,7 +152,7 @@ body {
         width: 250px;
     }
     .text {
-        font-size: 18px;
+        font-size: 20px;
     }
     .videothumbnail {
         width: 90%;
